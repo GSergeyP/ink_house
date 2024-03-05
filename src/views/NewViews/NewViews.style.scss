@@ -1,0 +1,49 @@
+.container {
+  margin: var(--m-NewV) auto 0 auto;
+  width: var(--width-NewV);
+  height: var(--height-NewV);
+  background-image: var(--bg-i-NewV);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: var(--bg-p-NewV);
+  .item {
+    padding-top: var(--p-t-NewV-item);
+    margin-left: var(--m-l-NewV-item);
+    width: var(--width-NewV-item);
+    .icon {
+      width: var(--width-NewV-icon);
+      height: var(--height-NewV-icon);
+      stroke: var(--honey-2);
+      fill: none;
+    }
+    h2 {
+      position: relative;
+      top: var(--t-NewV-h2);
+      left: var(--l-NewV-h2);
+      width: var(--width-NewV-h2);
+      color: var(--white);
+    }
+    p {
+      position: relative;
+      top: var(--t-NewV-p);
+      font-family: Raleway;
+      font-size: var(--fz-NewV-p);
+      font-weight: var(--fw-NewV-p);
+      line-height: var(--lh-NewV-p);
+      color: var(--white);
+
+      b {
+        position: relative;
+        top: var(--t-NewV-b);
+      }
+    }
+    .button {
+      margin-top: var(--m-t-NewV-but);
+      border: 1px solid var(--honey-2);
+      background-color: var(--honey-2);
+      width: var(--width-NewV-but);
+      height: var(--height-NewV-but);
+      color: var(--black);
+    }
+  }
+}

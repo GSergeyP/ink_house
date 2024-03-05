@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  flex-direction: var(--f-d-LogV);
+  justify-content: center;
+  align-items: center;
+  gap: var(--g-LogV);
+  margin: var(--m-LogV) auto 0 auto;
+
+  .img {
+    width: var(--width-LogV-img);
+    height: var(--height-LogV-img);
+  }
+  .item1 {
+    height: var(--height-LogV-item1);
+  }
+  .item2 {
+    width: var(--width-LogV-item2);
+    height: var(--height-LogV-item2);
+    b {
+      color: var(--green-4);
+    }
+    p {
+      margin-top: var(--m-t-LogV-p);
+      font-family: Raleway;
+      font-size: var(--fz-LogV-p);
+      font-weight: var(--fw-LogV-p);
+      line-height: var(--lh-LogV-p);
+      color: var(--black);
+    }
+    .button {
+      margin-top: var(--m-t-LogV-but);
+      width: var(--width-LogV-but);
+      height: var(--height-LogV-but);
+      border: 1px solid var(--green-4);
+      color: var(--green-4);
+    }
+  }
+}

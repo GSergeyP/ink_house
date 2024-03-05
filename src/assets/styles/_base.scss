@@ -1,0 +1,143 @@
+:root {
+  //colors
+  --green-1: #e1ede6;
+  --green-2: #d4e8d9;
+  --green-3: #598d66;
+  --green-4: #598d66;
+  --green-5: #376b44;
+
+  --honey-1: #faeb97;
+  --honey-2: #eedb6d;
+  --honey-3: #d9b949;
+  --honey-4: #a38314;
+
+  --white: #f4f6f5;
+
+  --black: #2c2d35;
+  --gray-1: #c3d1c6;
+  --gray-2: #4c5866;
+  --gray-3: #86928b;
+
+  @font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-Regular.ttf') format('truetype');
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--white);
+}
+#app {
+  width: 100%;
+  margin: 0 auto;
+}
+h1 {
+  font-family: Raleway;
+  font-size: var(--fz-h1);
+  font-weight: var(--fw-h1);
+  line-height: var(--lh-h1);
+  color: var(--black);
+}
+h2 {
+  font-family: Raleway;
+  font-size: var(--fz-h2);
+  font-weight: var(--fw-2);
+  line-height: var(--lh-h2);
+  color: var(--black);
+}
+h3 {
+  font-family: Raleway;
+  font-size: var(--fz-h3);
+  font-weight: var(--fw-3);
+  line-height: var(--lh-h3);
+  color: var(--black);
+}
+h4 {
+  font-family: Raleway;
+  font-size: var(--fz-h4);
+  font-weight: var(--fw-h4);
+  line-height: var(--lh-h4);
+  color: var(--green-3);
+}
+h5 {
+  font-family: Raleway;
+  font-size: var(--fz-h5);
+  font-weight: var(--fw-h5);
+  line-height: var(--lh-h5);
+  color: var(--gray-3);
+}
+h6 {
+  font-family: Raleway;
+  font-size: var(--fz-h6);
+  font-weight: var(--fw-h6);
+  line-height: var(--lh-h6);
+  color: var(--gray-3);
+}
+cite {
+  font-family: Raleway;
+  font-size: var(--fz-cite);
+  font-weight: var(--fw-cite);
+  line-height: var(--lh-cite);
+  color: var(--gray-3);
+}
+button {
+  font-family: Raleway;
+  font-size: var(--fz-but);
+  font-weight: var(--fw-but);
+  line-height: var(--lh-but);
+}
+.pseudo-but-var1 {
+  &:hover {
+    background-color: var(--green-4);
+    border-color: var(--green-4);
+    color: var(--white) !important;
+  }
+  &:focus {
+    background-color: var(--green-2);
+    border-color: var(--green-4);
+    color: var(--green-3) !important;
+  }
+  &:active {
+    background-color: var(--green-5);
+    border-color: var(--green-5);
+    color: var(--white);
+  }
+}
+.pseudo-but-var2 {
+  &:hover {
+    background-color: var(--honey-1) !important;
+    border-color: var(--honey-1) !important;
+  }
+  &:focus {
+    background-color: var(--honey-1) !important;
+    border-color: var(--honey-4) !important;
+  }
+  &:active {
+    background-color: var(--honey-3) !important;
+    border-color: var(--honey-3) !important;
+  }
+}
+a {
+  font-family: Raleway;
+  font-size: var(--fz-a);
+  font-weight: var(--fw-a);
+  line-height: var(--lh-a);
+  padding: 0 1px;
+  color: var(--black);
+  &:hover {
+    color: var(--green-3);
+  }
+  &:focus {
+    color: var(--black);
+    background-color: var(--green-2);
+  }
+  &:active {
+    color: var(--green-5);
+  }
+  touch-action: pan-x pan-y;
+
+}
