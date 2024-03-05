@@ -1,7 +1,7 @@
 const hero = [
   {
     state: 'france',
-    img: './img/new/france/01.png',
+    img: `${import.meta.env.BASE_URL}/img/new/france/01.png`,
     cite: 'Марсель Руссо',
     heading: 'h3',
     h: 'Охота Амура',
@@ -9,7 +9,7 @@ const hero = [
   },
   {
     state: 'france',
-    img: './img/new/france/02.png',
+    img: `${import.meta.env.BASE_URL}/img/new/france/02.png`,
     cite: 'Анри Селин',
     heading: 'h3',
     h: 'Дама с собачкой',
@@ -17,7 +17,7 @@ const hero = [
   },
   {
     state: 'france',
-    img: './img/new/france/03.png',
+    img: `${import.meta.env.BASE_URL}/img/new/france/03.png`,
     cite: 'Франсуа Дюпон',
     heading: 'h3',
     h: 'Процедура',
@@ -25,7 +25,7 @@ const hero = [
   },
   {
     state: 'france',
-    img: './img/new/france/04.png',
+    img: `${import.meta.env.BASE_URL}/img/new/france/04.png`,
     cite: 'Луи Детуш',
     heading: 'h3',
     h: 'Роза',
@@ -33,7 +33,7 @@ const hero = [
   },
   {
     state: 'france',
-    img: './img/new/france/05.png',
+    img: `${import.meta.env.BASE_URL}/img/new/france/05.png`,
     cite: 'Франсуа Дюпон',
     heading: 'h3',
     h: 'Птичья трапеза',
@@ -41,7 +41,7 @@ const hero = [
   },
   {
     state: 'france',
-    img: './img/new/france/06.png',
+    img: `${import.meta.env.BASE_URL}/img/new/france/06.png`,
     cite: 'Пьер Моранж',
     heading: 'h3',
     h: 'Пейзаж с рыбой',
@@ -49,7 +49,7 @@ const hero = [
   },
   {
     state: 'germany',
-    img: './img/new/germany/01.png',
+    img: `${import.meta.env.BASE_URL}/img/new/germany/01.png`,
     cite: 'Курт Вернер',
     heading: 'h3',
     h: 'Над городом',
@@ -57,7 +57,7 @@ const hero = [
   },
   {
     state: 'germany',
-    img: './img/new/germany/02.png',
+    img: `${import.meta.env.BASE_URL}/img/new/germany/02.png`,
     cite: 'Макс Рихтер',
     heading: 'h3',
     h: 'Птенцы',
@@ -65,7 +65,7 @@ const hero = [
   },
   {
     state: 'germany',
-    img: './img/new/germany/03.png',
+    img: `${import.meta.env.BASE_URL}/img/new/germany/03.png`,
     cite: 'Мартин Майер',
     heading: 'h3',
     h: 'Среди листьев',
@@ -73,7 +73,7 @@ const hero = [
   },
   {
     state: 'germany',
-    img: './img/new/germany/04.png',
+    img: `${import.meta.env.BASE_URL}/img/new/germany/04.png`,
     cite: 'Герман Беккер',
     heading: 'h3',
     h: 'Яркая птица',
@@ -81,7 +81,7 @@ const hero = [
   },
   {
     state: 'germany',
-    img: './img/new/germany/05.png',
+    img: `${import.meta.env.BASE_URL}/img/new/germany/05.png`,
     cite: 'Вульф Бауэр',
     heading: 'h3',
     h: 'Дятлы',
@@ -89,7 +89,7 @@ const hero = [
   },
   {
     state: 'germany',
-    img: './img/new/germany/06.png',
+    img: `${import.meta.env.BASE_URL}/img/new/germany/06.png`,
     cite: 'Вальтер Хартманн',
     heading: 'h3',
     h: 'Большие воды',
@@ -97,7 +97,7 @@ const hero = [
   },
   {
     state: 'england',
-    img: './img/new/england/01.png',
+    img: `${import.meta.env.BASE_URL}/img/new/england/01.png`,
     cite: 'Пол Смит',
     heading: 'h3',
     h: 'Дикий зверь',
@@ -105,7 +105,7 @@ const hero = [
   },
   {
     state: 'england',
-    img: './img/new/england/02.png',
+    img: `${import.meta.env.BASE_URL}/img/new/england/02.png`,
     cite: 'Джон Уайт',
     heading: 'h3',
     h: 'Скалистый берег',
@@ -113,7 +113,7 @@ const hero = [
   },
   {
     state: 'england',
-    img: './img/new/england/03.png',
+    img: `${import.meta.env.BASE_URL}/img/new/england/03.png`,
     cite: 'Джим Уотсон',
     heading: 'h3',
     h: 'Река и горы',
@@ -121,7 +121,7 @@ const hero = [
   },
   {
     state: 'england',
-    img: './img/new/england/04.png',
+    img: `${import.meta.env.BASE_URL}/img/new/england/04.png`,
     cite: 'Юджин Зиллион',
     heading: 'h3',
     h: 'Белый попугай',
@@ -129,7 +129,7 @@ const hero = [
   },
   {
     state: 'england',
-    img: './img/new/england/05.png',
+    img: `${import.meta.env.BASE_URL}/img/new/england/05.png`,
     cite: 'Эрик Гиллман',
     heading: 'h3',
     h: 'Ночная рыба',
@@ -137,7 +137,7 @@ const hero = [
   },
   {
     state: 'england',
-    img: './img/new/england/06.png',
+    img: `${import.meta.env.BASE_URL}/img/new/england/06.png`,
     cite: 'Альфред Барр',
     heading: 'h3',
     h: 'Рыжий кот',
